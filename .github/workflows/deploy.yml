@@ -1,0 +1,58 @@
+name: Hexo Deploy to GitHub Pages
+
+on:
+  push:
+    branches:
+      - hexo     # 程序分支触发部署
+      - posts    # 文章分支触发部署
+  workflow_dispatch:
+
+# 设置权限
+permissions:
+  contents: write
+
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout hexo branch
+        uses: actions/checkout@v4
+        with:
+          ref: hexo
+
+      - name: Sync content from posts branch
+        run: |
+          # 克隆 posts 分支到临时目录
+          git clone --depth 1 --branch posts https://github.com/Sakura-working/Sakura-working.github.io.git temp_content
+
+          # 复制文章到 _posts 目录
+          mkdir -p source/_posts
+          cp -r temp_content/* source/_posts/
+
+          # 清理临时目录
+          rm -rf temp_content
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+
+      - name: Setup Hexo
+        run: |
+          npm install -g hexo-cli
+          npm install
+
+      - name: Generate static files
+        run: |
+          hexo clean
+          hexo generate
+
+      - name: Deploy to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./public
+          publish_branch: gh-pages
+          commit_message: 'Deploy: ${{ github.event.head_commit.message }}'
+          force_orphan: true
