@@ -26,9 +26,9 @@ jobs:
           # 克隆 posts 分支到临时目录
           git clone --depth 1 --branch posts https://github.com/Sakura-working/Sakura-working.github.io.git temp_content
 
-          # 复制文章到 _posts 目录
+          # 只复制 .md 文件到 _posts 目录
           mkdir -p source/_posts
-          cp -r temp_content/* source/_posts/
+          find temp_content -maxdepth 1 -name "*.md" -exec cp {} source/_posts/ \;
 
           # 清理临时目录
           rm -rf temp_content
