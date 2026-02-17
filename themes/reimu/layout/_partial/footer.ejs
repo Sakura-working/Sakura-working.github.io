@@ -69,5 +69,25 @@
         <span id="busuanzi_container_site_uv"><%= __('busuanzi.uv') %>&nbsp;<span id="busuanzi_value_site_uv"></span></span>
       </div>
     <%_ } _%>
+    <div>
+      <span class="icon-clock"></span>
+      <span>已运行 <span id="site-runtime"></span></span>
+    </div>
+    <script>
+      (function() {
+        const startTime = new Date("<%= sinceYear %>-01-01").getTime();
+        function updateRuntime() {
+          const now = new Date().getTime();
+          const diff = now - startTime;
+          const days = Math.floor(diff / (1000 * 60 * 60 * 24));
+          const hours = Math.floor((diff % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          const minutes = Math.floor((diff % (1000 * 60 * 60)) / (1000 * 60));
+          const seconds = Math.floor((diff % (1000 * 60)) / 1000);
+          document.getElementById("site-runtime").innerHTML = days + " 天 " + hours + " 小时 " + minutes + " 分 " + seconds + " 秒";
+        }
+        updateRuntime();
+        setInterval(updateRuntime, 1000);
+      })();
+    </script>
   </div>
 </footer>

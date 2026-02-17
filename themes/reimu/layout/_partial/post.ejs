@@ -28,6 +28,12 @@
         <%_ } _%>
         <span><span class="icon-pencil"></span><%= _p('post.count', wordcount(post.content, post._id)) %></span>
         <span><span class="icon-clock"></span><%= _p('post.time', min2read(post.content, {}, post._id)) %></span>
+        <%_ if (post.categories && post.categories.length > 0) { _%>
+          <span><span class="icon-folder"></span><%- list_categories(post.categories, {show_count: false, class: 'post-category'}) %></span>
+        <%_ } _%>
+        <%_ if (post.tags && post.tags.length > 0) { _%>
+          <span><span class="icon-tag"></span><%- list_tags(post.tags, {show_count: false, class: 'post-tag'}) %></span>
+        <%_ } _%>
       </div>
       <h2 class="post-title"><%= post.title %></h2>
       <article class="post-article">

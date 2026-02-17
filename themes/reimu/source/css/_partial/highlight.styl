@@ -2,9 +2,10 @@
 $code-block {
   background: var(--highlight-background);
   padding: 0 article-padding 16px;
-  border-radius: post-radius;
+  border-radius: 8px;
   color: var(--highlight-foreground);
   line-height: font-size * line-height;
+  overflow: hidden;
 }
 
 $line-numbers {
@@ -256,8 +257,9 @@ pre {
   height: 40px;
   align-items: center;
   flex-shrink: 0;
-  background: linear-gradient(to right, transparent 0%, var(--highlight-nav) 20%, var(--highlight-nav) 80%, transparent 100%);
+  background: #1e1e1e;
   margin-bottom: 10px;
+  border-radius: 8px 8px 0 0;
 }
 
 .code-decoration {
