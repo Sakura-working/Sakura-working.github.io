@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<search> 
+  
+  
+    
+    <entry>
+      <title>后续的配置</title>
+      <link href="/%E6%9C%AA%E6%9D%A5%E8%AE%A1%E5%88%92/"/>
+      <url>/%E6%9C%AA%E6%9D%A5%E8%AE%A1%E5%88%92/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h1><p>后期的部署方法。<br>先使用Hexo框架</p><p>后期再迁移到<br>Astro+Mizuki<br><a href="https://github.com/matsuzaka-yuki/Mizuki">Mizuki主题</a></p><h2 id="图床配置"><a href="#图床配置" class="headerlink" title="图床配置"></a>图床配置</h2><p>计划图片都存储在 腾讯云对象存储 或者 阿里云OSS存储<br>然后配置仅限 云主机的ip访问，避免盗用链接访问图片对象</p><h2 id="Twikko评论"><a href="#Twikko评论" class="headerlink" title="Twikko评论"></a>Twikko评论</h2><p>部署方法可能直接在云服务器 或者 vercel</p><h2 id="引用测试"><a href="#引用测试" class="headerlink" title="引用测试"></a>引用测试</h2><blockquote><p>这是一段引用文字。</p></blockquote><h2 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h2><p>博客正在使用 Hexo + Reimu 主题搭建，包含以下特性：</p><ol><li>首页文章展示标签和分类</li><li>文章页显示精确时间</li><li>本地搜索功能</li><li>页脚显示站点运行时长</li><li>全屏 Banner</li><li>自定义背景图</li><li>VS Code 风格代码块</li></ol><p>敬请期待更多内容！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 工程 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 博客 </tag>
+            
+            <tag> 优化 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>欢迎来到我的博客</title>
+      <link href="/welcome/"/>
+      <url>/welcome/</url>
+      
+        <content type="html"><![CDATA[<h1 id="欢迎来到我的博客"><a href="#欢迎来到我的博客" class="headerlink" title="欢迎来到我的博客"></a>欢迎来到我的博客</h1><p>这是第一篇文章，用于测试博客的各种功能。</p><h2 id="代码块测试"><a href="#代码块测试" class="headerlink" title="代码块测试"></a>代码块测试</h2><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">function</span> <span class="title function_">hello</span>(<span class="params"></span>) &#123;</span><br><span class="line">  <span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, World!&quot;</span>);</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure><figure class="highlight python"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line"><span class="keyword">def</span> <span class="title function_">hello</span>():</span><br><span class="line">    <span class="built_in">print</span>(<span class="string">&quot;Hello, World!&quot;</span>)</span><br></pre></td></tr></table></figure><h2 id="列表测试"><a href="#列表测试" class="headerlink" title="列表测试"></a>列表测试</h2><ul><li>项目一</li><li>项目二</li><li>项目三</li></ul><h2 id="引用测试"><a href="#引用测试" class="headerlink" title="引用测试"></a>引用测试</h2><blockquote><p>这是一段引用文字。</p></blockquote><h2 id="图片测试"><a href="#图片测试" class="headerlink" title="图片测试"></a>图片测试</h2><p>博客正在使用 Hexo + Reimu 主题搭建，包含以下特性：</p><ol><li>首页文章展示标签和分类</li><li>文章页显示精确时间</li><li>本地搜索功能</li><li>页脚显示站点运行时长</li><li>全屏 Banner</li><li>自定义背景图</li><li>VS Code 风格代码块</li></ol><p>敬请期待更多内容！</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 生活 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+            <tag> 博客 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>VOCALOID 虚拟歌手介绍</title>
+      <link href="/VOCALOID%E4%BB%8B%E7%BB%8D/"/>
+      <url>/VOCALOID%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="什么是-VOCALOID？"><a href="#什么是-VOCALOID？" class="headerlink" title="什么是 VOCALOID？"></a>什么是 VOCALOID？</h2><p>VOCALOID 是 Yamaha 公司开发的电子歌声合成技术。</p><h2 id="著名角色"><a href="#著名角色" class="headerlink" title="著名角色"></a>著名角色</h2><ul><li><strong>初音未来</strong> - CV-01</li><li><strong>镜音铃</strong> &#x2F; <strong>镜音连</strong> - CV-01&#x2F;02</li><li><strong>巡音流歌</strong> - CV-03</li></ul><h2 id="文化影响"><a href="#文化影响" class="headerlink" title="文化影响"></a>文化影响</h2><p>VOCALOID 开创了人人都可以创作音乐的时代。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vocaloid </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vocaloid </tag>
+            
+            <tag> 虚拟歌手 </tag>
+            
+            <tag> 音乐软件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>test</title>
+      <link href="/%E6%88%91%E7%9A%84%E6%96%87%E7%AB%A0/"/>
+      <url>/%E6%88%91%E7%9A%84%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id=""><a href="#" class="headerlink" title=""></a></h2><p>iiiiiiiiiii</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> 567 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 123 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>镜音双子介绍</title>
+      <link href="/%E9%95%9C%E9%9F%B3%E5%8F%8C%E5%AD%90%E4%BB%8B%E7%BB%8D/"/>
+      <url>/%E9%95%9C%E9%9F%B3%E5%8F%8C%E5%AD%90%E4%BB%8B%E7%BB%8D/</url>
+      
+        <content type="html"><![CDATA[<h2 id="镜音双子（Kagamine-Twins）"><a href="#镜音双子（Kagamine-Twins）" class="headerlink" title="镜音双子（Kagamine Twins）"></a>镜音双子（Kagamine Twins）</h2><p>镜音双子是 Crypton Future Media 制作的虚拟歌手软件，包含 <strong>镜音铃（Rin）</strong> 和 <strong>镜音连（Len）</strong> 两个角色。</p><h3 id="角色介绍"><a href="#角色介绍" class="headerlink" title="角色介绍"></a>角色介绍</h3><p><strong>镜音铃（镜音リン）</strong></p><ul><li>性别：女</li><li>代表物：橘子&#x2F;交通锥</li><li>编号：CV-01</li><li>声音：清脆可爱的少女声线</li></ul><p><strong>镜音连（镜音レン）</strong></p><ul><li>性别：男</li><li>代表物：香蕉&#x2F;交通锥</li><li>编号：CV-02</li><li>声音：清亮的少年声线</li></ul><h3 id="外观特征"><a href="#外观特征" class="headerlink" title="外观特征"></a>外观特征</h3><ul><li><strong>发型</strong>：标志性的黄色短发，带有类似猫耳的翘起部分</li><li><strong>服装</strong>：以白色和金色为主色调，带有科技感的设计</li><li><strong>概念</strong>：设定为镜中 reflection 的双子，互为镜像存在</li></ul><h3 id="代表作品"><a href="#代表作品" class="headerlink" title="代表作品"></a>代表作品</h3><ul><li>《炉心融解》</li><li>《迷宫乐曲》</li><li>《右手Cookie》</li><li>《布尔歇瓦尔》</li></ul><h3 id="魅力所在"><a href="#魅力所在" class="headerlink" title="魅力所在"></a>魅力所在</h3><p>镜音双子的声音清脆明亮，非常适合演唱快节奏、充满活力的歌曲。他们的合唱配合默契，能够演绎出丰富多样的音乐风格。</p><p>从 2007 年发布至今，镜音双子已经成为 Vocaloid 系列中最受欢迎的角色之一，拥有大量粉丝和原创作品。</p>]]></content>
+      
+      
+      <categories>
+          
+          <category> Vocaloid </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Vocaloid </tag>
+            
+            <tag> 虚拟歌手 </tag>
+            
+            <tag> 镜音双子 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>测试文章</title>
+      <link href="/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/"/>
+      <url>/%E6%B5%8B%E8%AF%95%E6%96%87%E7%AB%A0/</url>
+      
+        <content type="html"><![CDATA[<h2 id="欢迎使用-Reimu-主题"><a href="#欢迎使用-Reimu-主题" class="headerlink" title="欢迎使用 Reimu 主题"></a>欢迎使用 Reimu 主题</h2><p>这是一个测试文章，用于验证多分支工作流。</p><h3 id="分支结构"><a href="#分支结构" class="headerlink" title="分支结构"></a>分支结构</h3><ul><li><strong>posts</strong> - 存放文章</li><li><strong>hexo</strong> - 存放 Hexo 程序</li><li><strong>gh-pages</strong> - 生成的静态网站</li></ul><h3 id="链接结构"><a href="#链接结构" class="headerlink" title="链接结构"></a>链接结构</h3><p>使用 <code>permalink: :title/</code> 配置，文章链接将是：</p><figure class="highlight plaintext"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">/测试文章/</span><br></pre></td></tr></table></figure><h3 id="代码测试"><a href="#代码测试" class="headerlink" title="代码测试"></a>代码测试</h3><figure class="highlight javascript"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line"><span class="variable language_">console</span>.<span class="title function_">log</span>(<span class="string">&quot;Hello, Reimu!&quot;</span>);</span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 测试 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 测试 </tag>
+            
+            <tag> Reimu </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+  
+  
+</search>
