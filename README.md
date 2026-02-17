@@ -1,6 +1,6 @@
 # Sakura Blog
 
-使用 Hexo + Reimu 主题的博客
+使用 Hexo + Butterfly 主题的博客
 
 ## 分支结构
 
